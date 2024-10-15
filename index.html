@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical appointment Form</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/doctor3.png" height="10%" width="10%">
+        <section>
+            <h4>Dr. Maria Vazquez T.</h4>
+            <p><small>Mon, Oct 14 - 1:00 pm EDT</small></p>
+            <p><small>265 N Main St, Lexington MA, 020156</small></p>
+        </section>
+    </header>
+    <br>
+    <main>
+        <h3>Tell us a bit about you.</h3>
+        <p><i>To book your appointment , we need to verify a few things for Dr. Vazquez's office.</i></p>
+        <section>
+            <form action="https://httpbin.org/get" target="_blank">
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email">
+                <br>
+                <br>
+                <label for="name">First Name</label>
+                <br>
+                <input type="text" name="first name">
+                <br>
+                <br>
+                <label for="lastName">Last Name</label>
+                <br>
+                <input type="text" name="last name">
+                <br>
+                <br>
+                <label for="dob">Date of Birth</label>
+                <br>
+                <input type="date" name="date">
+                <br>
+                <br>
+                <label for="sex">Sex</label>
+                <br>
+                <input type="radio" name="Sex"><span>Male</span>
+                <input type="radio" name="Sex"><span>Female</span>
+                <br>
+                <h3>Enter your mobile phone number</h3>
+                <p><small>We'll text you to verify your account</small></p>
+                <input type="number" name="phone number">
+
+                <div>
+                    <p><b>Address of Residence</b></p>
+                    <label for="Street address">Street(appt.):</label> <input type="text" name="Street">
+                    <label for="City">City:</label> <input type="text" name="City">
+                    <br>
+                    <br>
+                    <label for="State">State:</label> <input type="text" name="State">
+                    <Label for="Zip Code">Zip Code:</Label> <input type="numer" name="Zip Code">
+                    <label for="Country">Country:</label> <input type="text" name="Country">
+                </div>
+                <br>
+                <div>
+                    <h3>Visit reason</h3>
+                    <p><small>Common conditions and services </small></p>
+                    <input type="radio" name="disease"><span>Depression</span>
+                    <br>
+                    <input type="radio" name="disease"><span>Acupuncture</span>
+                    <br>
+                    <input type="radio" name="disease"><span>Back Pain</span>
+                    <br>
+                    <input type="radio" name="disease"><span>Neck Pain</span>
+                    <br>
+                    <input type="radio" name="disease"><span>Sciatica</span>
+                </div>
+                <div>
+                    <h3>Preferred time of the day</h3>
+                    <input type="checkbox" name="time"><span>Early morning(1)</span>
+                    <p><small>Starts before 10 am</small></p>
+                    <input type="checkbox" name="time"><span>Morning(4)</span>
+                    <p><small>Starts before 12 pm</small></p>
+                    <input type="checkbox" name="time"><span>Afternoon(4)</span>
+                    <p><small>Starts after 12 pm</small></p>
+                </div>
+                <div>
+                    <h3>Create a password</h3>
+                    <label for="pwd">Password</label>
+                    <input type="password" name="pwd">
+                    <ul>
+                        <li>Use at least 8 characters</li>
+                        <li>Use letters</li>
+                        <li>Use numbers</li>
+                        <li>Use special characters, like @#&%!*</li>
+                    </ul>
+                    <br>
+                    <footer>
+                        <input type="checkbox" name="Acceptance"> <span>I have read and accept Zocdoc's</span><a
+                            href="file:///C:/Users/jepht/OneDrive/Desktop/Project/Medical%20appointment/index2.html"
+                            target="_blank"> Privacy Policy</a>
+                        <br>
+                        <input type="submit"> <input type="reset">
+                    </footer>
+                </div>
+                <hr>
+                <br>
+                <h3>Log in</h3>
+                <label for="email">Email:</label>
+                <input type="email" name="email">
+                <label for="password">Password:</label>
+                <input type="password" name="pwd">
+                <br><br>
+                <input type="submit">
+
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
