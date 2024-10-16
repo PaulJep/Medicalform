@@ -22,9 +22,12 @@
         <p><i>To book your appointment , we need to verify a few things for Dr. Vazquez's office.</i></p>
         <section>
             <form action="https://httpbin.org/get" target="_blank">
+                <aside>
+                <fieldset>
+                    <legend>Patient infos</legend>
                 <label for="email">Email</label>
                 <br>
-                <input type="email" name="email">
+                <input type="email" name="email" required placeholder="example@gmail.com">
                 <br>
                 <br>
                 <label for="name">First Name</label>
@@ -39,7 +42,7 @@
                 <br>
                 <label for="dob">Date of Birth</label>
                 <br>
-                <input type="date" name="date">
+                <input type="date" name="date" required>
                 <br>
                 <br>
                 <label for="sex">Sex</label>
@@ -49,18 +52,34 @@
                 <br>
                 <h3>Enter your mobile phone number</h3>
                 <p><small>We'll text you to verify your account</small></p>
-                <input type="number" name="phone number">
+                <input type="number" name="phone number" placeholder="(____)_____-_____">
+                <br>
+                <br>
+                <label for="country">Country:</label>
+                <select name="country" id="">
+                    <option value="ht">Haiti</option>
+                    <option value="es">Spain</option>
+                    <option value="us">United States</option>
+                    <option value="mx">Mexico</option>
+                    <option value="can">Canada</option>
+                    <option value="fr">France</option>
+
+
+
+                </select>
 
                 <div>
                     <p><b>Address of Residence</b></p>
-                    <label for="Street address">Street(appt.):</label> <input type="text" name="Street">
-                    <label for="City">City:</label> <input type="text" name="City">
+                    <label for="Street address"></label> <input type="text" name="Street" placeholder="Street address">
+                    <label for="City"></label> <input type="text" name="City" placeholder="City">
                     <br>
                     <br>
-                    <label for="State">State:</label> <input type="text" name="State">
-                    <Label for="Zip Code">Zip Code:</Label> <input type="numer" name="Zip Code">
-                    <label for="Country">Country:</label> <input type="text" name="Country">
+                    <label for="State"></label> <input type="text" name="State" placeholder="State">
+                    <Label for="Zip Code"></Label> <input type="numer" name="Zip Code" placeholder="Zip Code">
+                    <label for="Country"></label> <input type="text" name="Country" placeholder="Country">
                 </div>
+                </fieldset>
+                </aside>
                 <br>
                 <div>
                     <h3>Visit reason</h3>
@@ -87,7 +106,7 @@
                 <div>
                     <h3>Create a password</h3>
                     <label for="pwd">Password</label>
-                    <input type="password" name="pwd">
+                    <input type="password" name="pwd" maxlength="12" size="20" placeholder="@patient123">
                     <ul>
                         <li>Use at least 8 characters</li>
                         <li>Use letters</li>
@@ -106,10 +125,12 @@
                 <hr>
                 <br>
                 <h3>Log in</h3>
-                <label for="email">Email:</label>
-                <input type="email" name="email">
-                <label for="password">Password:</label>
-                <input type="password" name="pwd">
+                <label for="email"></label>
+                <input type="email" name="email" placeholder="Email">
+                <br>
+                <br>
+                <label for="password"></label>
+                <input type="password" name="pwd" placeholder="Password">
                 <br><br>
                 <input type="submit">
 
