@@ -1,0 +1,55 @@
+h4,
+h3,h2 {
+    color: rgb(11, 61, 35);
+    font-size: larger;
+    background-color: antiquewhite;
+    border-bottom:  rgb(11, 61, 35) 3px solid;
+}
+
+body>header>section>h4 {
+    color: rgb(11, 61, 35);
+    background-color: antiquewhite;
+    font-size: large;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(139, 178, 138);
+}
+
+p {
+    color:  rgb(11, 61, 35);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+form {
+    color: rgb(11, 61, 35);
+}
+
+img {
+    width: 15%;
+    border: 2px  rgb(11, 61, 35) solid;
+    margin-left: 630px;
+}
+
+header>section>p {
+    text-align: center;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    color:  rgb(11, 61, 35);
+}
+input,select{
+    background-color: antiquewhite;
+}
+
+fieldset{
+    background-color: beige;
+    border-bottom:  rgb(11, 61, 35) 2px solid;
+    border-top:  rgb(11, 61, 35) 2px solid;
+    border-right:  rgb(11, 61, 35) 2px solid;
+    border-left:  rgb(11, 61, 35) 2px solid;  
+
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
