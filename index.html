@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medical appointment Form</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -12,73 +13,72 @@
         <img src="img/doctor3.png" height="10%" width="10%">
         <section>
             <h4>Dr. Maria Vazquez T.</h4>
-            <p><small>Mon, Oct 14 - 1:00 pm EDT</small></p>
-            <p><small>265 N Main St, Lexington MA, 020156</small></p>
+            <p><small><u>Mon, Oct 14 - 1:00 pm EDT</u></small></p>
+            <p><small><u>265 N Main St, Lexington MA, 020156</u></small></p>
         </section>
     </header>
     <br>
     <main>
         <h3>Tell us a bit about you.</h3>
-        <p><i>To book your appointment , we need to verify a few things for Dr. Vazquez's office.</i></p>
+        <p><small>To book your appointment , we need to verify a few things for Dr. Vazquez's office.</small></p>
         <section>
             <form action="https://httpbin.org/get" target="_blank">
                 <aside>
-                <fieldset>
-                    <legend>Patient infos</legend>
-                <label for="email">Email</label>
-                <br>
-                <input type="email" name="email" required placeholder="example@gmail.com">
-                <br>
-                <br>
-                <label for="name">First Name</label>
-                <br>
-                <input type="text" name="first name">
-                <br>
-                <br>
-                <label for="lastName">Last Name</label>
-                <br>
-                <input type="text" name="last name">
-                <br>
-                <br>
-                <label for="dob">Date of Birth</label>
-                <br>
-                <input type="date" name="date" required>
-                <br>
-                <br>
-                <label for="sex">Sex</label>
-                <br>
-                <input type="radio" name="Sex"><span>Male</span>
-                <input type="radio" name="Sex"><span>Female</span>
-                <br>
-                <h3>Enter your mobile phone number</h3>
-                <p><small>We'll text you to verify your account</small></p>
-                <input type="number" name="phone number" placeholder="(____)_____-_____">
-                <br>
-                <br>
-                <label for="country">Country:</label>
-                <select name="country" id="">
-                    <option value="ht">Haiti</option>
-                    <option value="es">Spain</option>
-                    <option value="us">United States</option>
-                    <option value="mx">Mexico</option>
-                    <option value="can">Canada</option>
-                    <option value="fr">France</option>
+                    <fieldset>
+                        <legend><b>Patient infos</b></legend>
+                        <label for="email">Email</label>
+                        <br>
+                        <input type="email" name="email" required placeholder="example@gmail.com">
+                        <br>
+                        <br>
+                        <label for="name">First Name</label>
+                        <br>
+                        <input type="text" name="first name">
+                        <br>
+                        <br>
+                        <label for="lastName">Last Name</label>
+                        <br>
+                        <input type="text" name="last name">
+                        <br>
+                        <br>
+                        <label for="dob">Date of Birth</label>
+                        <br>
+                        <input type="date" name="date" required>
+                        <br>
+                        <br>
+                        <label for="sex">Sex</label>
+                        <br>
+                        <input type="radio" name="Sex"><span>Male</span>
+                        <input type="radio" name="Sex"><span>Female</span>
+                        <br>
+                        <p><b><small>Enter your mobile phone number</small></b></p>
+                        <p><small>We'll text you to verify your account</small></p>
+                        <input type="number" name="phone number" placeholder="(____)_____-_____">
+                        <br>
+                        <br>
+                        <label for="country">Country:</label>
+                        <select name="country" id="">
+                            <option value="ht">Haiti</option>
+                            <option value="es">Spain</option>
+                            <option value="us">United States</option>
+                            <option value="mx">Mexico</option>
+                            <option value="can">Canada</option>
+                            <option value="fr">France</option>
 
 
 
-                </select>
+                        </select>
 
-                <div>
-                    <p><b>Address of Residence</b></p>
-                    <label for="Street address"></label> <input type="text" name="Street" placeholder="Street address">
-                    <label for="City"></label> <input type="text" name="City" placeholder="City">
-                    <br>
-                    <br>
-                    <label for="State"></label> <input type="text" name="State" placeholder="State">
-                    <Label for="Zip Code"></Label> <input type="number" name="Zip Code" placeholder="Zip Code">
-                    <label for="Country"></label> <input type="text" name="Country" placeholder="Country">
-                </div>
-                </fieldset>
+                        <p><b><small>Address of Residence</small></b></p>
+                        <label for="Street address"></label> <input type="text" name="Street"
+                            placeholder="Street address">
+                        <label for="City"></label> <input type="text" name="City" placeholder="City">
+                        <br>
+                        <br>
+                        <label for="State"></label> <input type="text" name="State" placeholder="State">
+                        <label for="Zip Code"></label> <input type="number" name="Zip Code" placeholder="Zip Code">
+                        <label for="Country"></label> <input type="text" name="Country" placeholder="Country">
+                    </fieldset>
                 </aside>
                 <br>
                 <div>
@@ -116,8 +116,7 @@
                     <br>
                     <footer>
                         <input type="checkbox" name="Acceptance"> <span>I have read and accept Zocdoc's</span><a
-                            href="index2.html"
-                            target="_blank"> Privacy Policy</a>
+                            href="index2.html" target="_blank"> Privacy Policy</a>
                         <br>
                         <input type="submit"> <input type="reset">
                     </footer>
